@@ -1593,7 +1593,8 @@
           "Avalonia.Fonts.Inter": "12.1.6",
           "Avalonia.Themes.Fluent": "12.1.6",
           "AvaloniaUI.DiagnosticsSupport": "2.2.3",
-          "CommunityToolkit.Mvvm": "8.4.2"
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Library2": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Library.Client.dll": {}

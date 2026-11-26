@@ -26,4 +26,8 @@
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
     </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Library2\Library2.csproj" />
+    </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HDsL2eDwpv8=",
+  "dgSpecHash": "+XMPgAz7GLg=",
   "success": true,
   "projectFilePath": "/home/ooooo/RiderProjects/Library2/Library.Client/Library.Client.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,8 @@
     "/home/ooooo/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/ooooo/.nuget/packages/microsoft.io.recyclablememorystream/3.0.1/microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
     "/home/ooooo/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/home/ooooo/.nuget/packages/npgsql/8.0.6/npgsql.8.0.6.nupkg.sha512",
+    "/home/ooooo/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.11/npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
     "/home/ooooo/.nuget/packages/skiasharp/3.119.4/skiasharp.3.119.4.nupkg.sha512",
     "/home/ooooo/.nuget/packages/skiasharp.nativeassets.linux/3.119.4/skiasharp.nativeassets.linux.3.119.4.nupkg.sha512",
     "/home/ooooo/.nuget/packages/skiasharp.nativeassets.macos/3.119.4/skiasharp.nativeassets.macos.3.119.4.nupkg.sha512",

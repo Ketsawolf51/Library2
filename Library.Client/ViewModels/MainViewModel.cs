@@ -1,8 +1,14 @@
 using CommunityToolkit.Mvvm.ComponentModel;
+using Library.Client.Services;
 
 namespace Library.Client.ViewModels;
 
 public partial class MainViewModel : ViewModelBase
 {
-    [ObservableProperty] private string _greeting = "Welcome to Avalonia!";
+    public NavigationService Navigation => NavigationService.Instance;
+
+    public MainViewModel()
+    {
+        Navigation.NavigateTo<LoginPageViewModels>();
+    }
 }
