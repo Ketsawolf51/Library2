@@ -8,7 +8,7 @@ public abstract class BaseApiService
 {
     
     
-        protected const string BaseUrl = "http://localhost:5142";
+        protected const string BaseUrl = "http://localhost:5283";
         private static readonly CookieContainer CookieContainer = new();
 
         protected static readonly HttpClient Http = new(new HttpClientHandler

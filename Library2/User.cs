@@ -11,8 +11,8 @@ public class User
     public string Email { get; set; }
     public string Password { get; set; }
     
-    [AllowedValues("Admin", "User" , ErrorMessage = "Недопустимое значение роли пользователя.")]
+    
     public string Role { get; set; } = "User";
     
-    public DateTime RegistrationDate { get; set; }= DateTime.Now;
+    public DateTime RegistrationDate { get; set; }= DateTime.UtcNow;
 }

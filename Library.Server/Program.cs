@@ -1,3 +1,5 @@
+using Library.Server.Interfaces;
+using Library.Server.Services;
 using Library2.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
@@ -28,10 +30,11 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         };
     });
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddAuthorization();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSingleton<IPasswordHasher, PasswordHasherService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+
 
 var app = builder.Build();
 

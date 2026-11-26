@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Library.Client/Views/BooksPage.axaml" value="Library.Client/Library.Client.csproj" />
+        <entry key="Library.Client/Views/LoginPage.axaml" value="Library.Client/Library.Client.csproj" />
+        <entry key="Library.Client/Views/MainWindow.axaml" value="Library.Client/Library.Client.csproj" />
+        <entry key="Library.Client/Views/RegisterPage.axaml" value="Library.Client/Library.Client.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

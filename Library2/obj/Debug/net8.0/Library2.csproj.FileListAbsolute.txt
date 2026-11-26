@@ -1,0 +1,15 @@
+/home/ooooo/RiderProjects/Library2/Library2/bin/Debug/net8.0/Library2.deps.json
+/home/ooooo/RiderProjects/Library2/Library2/bin/Debug/net8.0/Library2.runtimeconfig.json
+/home/ooooo/RiderProjects/Library2/Library2/bin/Debug/net8.0/Library2.dll
+/home/ooooo/RiderProjects/Library2/Library2/bin/Debug/net8.0/Library2.pdb
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/Library2.csproj.AssemblyReference.cache
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/Library2.GeneratedMSBuildEditorConfig.editorconfig
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/Library2.AssemblyInfoInputs.cache
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/Library2.AssemblyInfo.cs
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/Library2.csproj.CoreCompileInputs.cache
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/Library2.sourcelink.json
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/Library2.dll
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/refint/Library2.dll
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/Library2.pdb
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/Library2.genruntimeconfig.cache
+/home/ooooo/RiderProjects/Library2/Library2/obj/Debug/net8.0/ref/Library2.dll

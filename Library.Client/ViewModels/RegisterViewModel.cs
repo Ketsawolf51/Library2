@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using Library.Client.Services;
 using Library2.Dto;
 
@@ -18,6 +19,7 @@ public partial class RegisterViewModel: ViewModelBase
     [ObservableProperty]
     private string? _errorMessage =  string.Empty;
 
+    [RelayCommand]
     private async Task RegisterAsync()
     {
         ErrorMessage = null;
@@ -33,7 +35,25 @@ public partial class RegisterViewModel: ViewModelBase
             Password = Password,
             Email = Email
         };
+        
+        var response = await api.RegisterAsync(dto);
+
+        if (response.Status)
+        {
+           NavigationService.Instance.NavigateTo<BooksViewModel>();
+        }
+        else
+        {
+            
+            ErrorMessage = response.Data;
+
+        }
+        
     }
-    
+    [RelayCommand]
+    private void GoToLogin()
+    {
+        NavigationService.Instance.NavigateTo<LoginPageViewModel>();
+    }
     
 }
