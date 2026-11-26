@@ -14,9 +14,9 @@
             <TextBox PasswordChar="*" Text="{Binding Password}" ></TextBox>
             <TextBlock IsVisible="{Binding ErrorMessage, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" Text="{Binding ErrorMessage}" HorizontalAlignment="Center" ></TextBlock>
             <Button  Width="300" HorizontalAlignment="Center"  Content="Войти"   Margin="0,10"
-                     Background="{StaticResource BlueColor}" Command="{Binding LoginCommand}"></Button>
+                      Command="{Binding LoginCommand}"></Button>
             <Button Width="300" HorizontalAlignment="Center"  Content="Регистрация" 
-                    Background="{StaticResource RedColor}" Command="{Binding GoToRegisterCommand}"></Button>
+                     Command="{Binding GoToRegisterCommand}"></Button>
         </StackPanel>
     
 </UserControl>

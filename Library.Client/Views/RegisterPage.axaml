@@ -1,0 +1,32 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:Library.Client.ViewModels"
+             x:DataType="vm:RegisterViewModel"  
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Library.Client.Views.RegisterPage">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Spacing="8">
+        <Label  Content="Регистрация" HorizontalAlignment="Center" />
+        <Label Content="Создайте учетную запись" HorizontalAlignment="Center" />
+        
+        <TextBox  Watermark="Логин" Text="{Binding Login}" />
+        <TextBox  Watermark="Почта" Text="{Binding Email}" />
+        <TextBox Watermark="Пароль" PasswordChar="*" Text="{Binding Password}" />
+
+      
+        <TextBlock Text="{Binding ErrorMessage}" 
+                   HorizontalAlignment="Center"
+                   IsVisible="{Binding ErrorMessage, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+        
+        
+        <Button Width="300" HorizontalAlignment="Center"  Content="Регистрация" 
+               
+                Command="{Binding RegisterCommand}" />
+                
+        <!-- 2. Заменили Click из code-behind на чистую MVVM-команду -->
+        <Button Width="300" HorizontalAlignment="Center"  Content="Войти" 
+                
+                Command="{Binding GoToLoginCommand}" />
+    </StackPanel>
+</UserControl>

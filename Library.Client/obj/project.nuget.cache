@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Gd4m9AmVOgI=",
+  "dgSpecHash": "NKZSsGA2cq0=",
   "success": true,
   "projectFilePath": "/home/ooooo/RiderProjects/Library2/Library.Client/Library.Client.csproj",
   "expectedPackageFiles": [
     "/home/ooooo/.nuget/packages/avalonia/11.2.3/avalonia.11.2.3.nupkg.sha512",
     "/home/ooooo/.nuget/packages/avalonia.angle.windows.natives/2.1.22045.20230930/avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512",
     "/home/ooooo/.nuget/packages/avalonia.buildservices/0.0.29/avalonia.buildservices.0.0.29.nupkg.sha512",
+    "/home/ooooo/.nuget/packages/avalonia.controls.datagrid/11.2.3/avalonia.controls.datagrid.11.2.3.nupkg.sha512",
     "/home/ooooo/.nuget/packages/avalonia.desktop/11.2.3/avalonia.desktop.11.2.3.nupkg.sha512",
     "/home/ooooo/.nuget/packages/avalonia.fonts.inter/11.2.3/avalonia.fonts.inter.11.2.3.nupkg.sha512",
     "/home/ooooo/.nuget/packages/avalonia.freedesktop/11.2.3/avalonia.freedesktop.11.2.3.nupkg.sha512",

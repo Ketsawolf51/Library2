@@ -107,6 +107,23 @@
           "buildTransitive/Avalonia.BuildServices.targets": {}
         }
       },
+      "Avalonia.Controls.DataGrid/11.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.2.3",
+          "Avalonia.Remote.Protocol": "11.2.3"
+        },
+        "compile": {
+          "lib/net8.0/Avalonia.Controls.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Avalonia.Controls.DataGrid.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Avalonia.Desktop/11.2.3": {
         "type": "package",
         "dependencies": {
@@ -1462,6 +1479,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Avalonia": "11.2.3",
+          "Avalonia.Controls.DataGrid": "11.2.3",
           "Avalonia.Desktop": "11.2.3",
           "Avalonia.Fonts.Inter": "11.2.3",
           "Avalonia.Themes.Fluent": "11.2.3",
@@ -1693,6 +1711,24 @@
         "tools/netstandard2.0/Avalonia.BuildServices.Collector.dll",
         "tools/netstandard2.0/Avalonia.BuildServices.dll",
         "tools/netstandard2.0/runtimeconfig.json"
+      ]
+    },
+    "Avalonia.Controls.DataGrid/11.2.3": {
+      "sha512": "Ul6oWEoqs4eTQZIb4Hzf0+ajhgrCX9ypOj8TahKbkKoIznJkUoka3iV90Vpj/AuoT5AZsN6f+1+62SVPpeMApA==",
+      "type": "package",
+      "path": "avalonia.controls.datagrid/11.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "avalonia.controls.datagrid.11.2.3.nupkg.sha512",
+        "avalonia.controls.datagrid.nuspec",
+        "lib/net6.0/Avalonia.Controls.DataGrid.dll",
+        "lib/net6.0/Avalonia.Controls.DataGrid.xml",
+        "lib/net8.0/Avalonia.Controls.DataGrid.dll",
+        "lib/net8.0/Avalonia.Controls.DataGrid.xml",
+        "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll",
+        "lib/netstandard2.0/Avalonia.Controls.DataGrid.xml"
       ]
     },
     "Avalonia.Desktop/11.2.3": {

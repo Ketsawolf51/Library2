@@ -1,29 +1,71 @@
 using System;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using Library2;
+using Library2.Dto;
 
 namespace Library.Client.Services;
 
 public class AuthApiService:BaseApiService
 {
-    protected const string BaseUrl = "http://localhost:5063";
-    private static readonly CookieContainer CookieContainer = new();
-
-    protected static readonly HttpClient Http = new(new HttpClientHandler
+    public async Task<ApiResponse<string>> LoginAsync(LoginDto model)
     {
-        CookieContainer = CookieContainer,
-        UseCookies = true
-    })
-    {
-        BaseAddress = new Uri(BaseUrl)
-    };
-
-    // Вспомогательный метод для очистки кук при выходе
-    protected static void ClearCookies()
-    {
-        foreach (Cookie cookie in CookieContainer.GetCookies(new Uri(BaseUrl)))
+        try
         {
-            cookie.Expired = true;
+            var response = await Http.PostAsJsonAsync("auth/login", model);
+            var result = await response.Content.ReadFromJsonAsync<ApiResponse<string>>();
+
+            return result ?? new ApiResponse<string>
+            {
+                Status = false,
+                Data = "Пустой ответ от сервера"
+            };
+        }
+        catch (Exception ex)
+        {
+            return new ApiResponse<string>
+            {
+                Status = false,
+                Data = $"Ошибка подключения: {ex.Message}"
+            };
+        }
+    }
+
+    public async Task<ApiResponse<string>> RegisterAsync(RegisterDto model)
+    {
+        try
+        {
+            var response = await Http.PostAsJsonAsync("auth/register", model);
+            var result = await response.Content.ReadFromJsonAsync<ApiResponse<string>>();
+
+            return result ?? new ApiResponse<string>
+            {
+                Status = false,
+                Data = "Пустой ответ от сервера"
+            };
+        }
+        catch (Exception ex)
+        {
+            return new ApiResponse<string>
+            {
+                Status = false,
+                Data = $"Ошибка подключения: {ex.Message}"
+            };
+        }
+    }
+
+    public async Task LogoutAsync()
+    {
+        try
+        {
+            await Http.PostAsync("auth/logout", null);
+        }
+        finally
+        {
+            // Очищаем локальные куки в любом случае, даже если сервер временно недоступен
+            ClearCookies();
         }
     }
 }

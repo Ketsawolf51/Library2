@@ -27,8 +27,14 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [/home/ooooo/RiderProjects/Library2/Library.Client/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/home/ooooo/RiderProjects/Library2/Library.Client/Views/BooksPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/home/ooooo/RiderProjects/Library2/Library.Client/Views/LoginPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/home/ooooo/RiderProjects/Library2/Library.Client/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/ooooo/RiderProjects/Library2/Library.Client/Views/RegisterPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

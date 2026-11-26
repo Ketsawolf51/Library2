@@ -8,7 +8,7 @@ namespace Library.Client.ViewModels;
 
 public partial class LoginPageViewModel: ViewModelBase
 {
-    
+    private readonly AuthApiService api = new AuthApiService();
     [ObservableProperty]
     private string login;
     [ObservableProperty]
@@ -32,6 +32,27 @@ public partial class LoginPageViewModel: ViewModelBase
             Login = Login,
             Password = Password
         };
-        
+        var response = await api.LoginAsync(dto);
+
+        if (response.Status)
+        {
+            UserSession.Role = response.Data ?? "User";
+            NavigationService.Instance.NavigateTo<BooksViewModel>();
+
+        }
+        else
+        {
+            ErrorMessage = "Неправильный пароль.";
+        }
     }
+
+    [RelayCommand]
+    private async Task GoToRegister()
+    {
+        NavigationService.Instance.NavigateTo<RegisterViewModel>();
+    }
+   
+    
+        
+    
 }
