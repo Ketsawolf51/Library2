@@ -9,6 +9,6 @@ public partial class MainViewModel : ViewModelBase
 
     public MainViewModel()
     {
-        Navigation.NavigateTo<LoginPageViewModels>();
+        Navigation.NavigateTo<LoginPageViewModel>();
     }
 }

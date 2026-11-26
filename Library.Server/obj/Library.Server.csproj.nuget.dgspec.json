@@ -51,19 +51,19 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[12.1.6, )"
+              "version": "[11.2.3, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[12.1.6, )"
+              "version": "[11.2.3, )"
             },
             "Avalonia.Fonts.Inter": {
               "target": "Package",
-              "version": "[12.1.6, )"
+              "version": "[11.2.3, )"
             },
             "Avalonia.Themes.Fluent": {
               "target": "Package",
-              "version": "[12.1.6, )"
+              "version": "[11.2.3, )"
             },
             "AvaloniaUI.DiagnosticsSupport": {
               "target": "Package",

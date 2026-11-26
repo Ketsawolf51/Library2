@@ -19,7 +19,10 @@ public class ViewLocator : IDataTemplate
         if (param is null)
             return null;
 
-        var name = param.GetType().FullName!.Replace("ViewModel", "View", StringComparison.Ordinal);
+        var fullName = param.GetType().FullName!.Replace(".ViewModels.", ".Views.", StringComparison.Ordinal);
+        var name = fullName.EndsWith("PageViewModel", StringComparison.Ordinal)
+            ? fullName.Replace("PageViewModel", "Page", StringComparison.Ordinal)
+            : fullName.Replace("ViewModel", "Page", StringComparison.Ordinal);
         var type = Type.GetType(name);
 
         if (type != null)
