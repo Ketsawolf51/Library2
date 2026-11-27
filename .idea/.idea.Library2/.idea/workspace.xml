@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="100a7094-6fa8-41f6-8f1d-ed70d239a40b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Library.Client/ViewModels/AddBookViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Client/Views/AddBookPage.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Client/Views/AddBookPage.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Server/Controllers/BooksController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Server/Controllers/MainController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Server/Services/MainService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library2/Dto/CreateBookDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Library2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Library2/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library2/.idea/avalonia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Library2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/Services/BookApiService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/Services/BookApiService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/ViewModels/BooksViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/ViewModels/BooksViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/Views/BooksPage.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/Views/BooksPage.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/Views/LoginPage.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/Views/LoginPage.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/Views/RegisterPage.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/Views/RegisterPage.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/bin/Debug/net8.0/Library.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/bin/Debug/net8.0/Library.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/bin/Debug/net8.0/Library.Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/bin/Debug/net8.0/Library.Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/bin/Debug/net8.0/Library2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/bin/Debug/net8.0/Library2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/bin/Debug/net8.0/Library2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/bin/Debug/net8.0/Library2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Avalonia/Library.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Avalonia/Library.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Avalonia/Library.Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Avalonia/Library.Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/Library.Client.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/ref/Library.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/ref/Library.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/refint/Avalonia/Library.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/refint/Avalonia/Library.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/refint/Library.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Client/obj/Debug/net8.0/refint/Library.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/Interfaces/IMainService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/Interfaces/IMainService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library.Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library.Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library.Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library.Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/bin/Debug/net8.0/Library2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/Library.Server.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/ref/Library.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/ref/Library.Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/refint/Library.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Server/obj/Debug/net8.0/refint/Library.Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/Book.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/bin/Debug/net8.0/Library2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/bin/Debug/net8.0/Library2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/bin/Debug/net8.0/Library2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/bin/Debug/net8.0/Library2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/Library2.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/ref/Library2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/ref/Library2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/refint/Library2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library2/obj/Debug/net8.0/refint/Library2.dll" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library.Client/ViewModels/AddBookViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library.Client/Views/AddBookPage.axaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library.Client/Views/AddBookPage.axaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library.Server/Controllers/BooksController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library.Server/Controllers/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library.Server/Services/MainService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library2/Dto/CreateBookDto.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.5191551118308285E-126" />
+      <entry key="MS500" value="7.590160890217545E-26" />
+      <entry key="S2" value="5.24883288204248E-7" />
+      <entry key="S5" value="0.0030762747160221716" />
+      <entry key="S10" value="0.05547541469633024" />
+      <entry key="S30" value="0.4037665283683293" />
+      <entry key="S60" value="0.7747459110626724" />
+      <entry key="M2" value="1.6614122108712104" />
+      <entry key="M5" value="9.692931785513192" />
+      <entry key="M10" value="29.319725988831983" />
+      <entry key="M15" value="49.69914145439161" />
+      <entry key="M30" value="98.26686681369432" />
+      <entry key="H1" value="148.97179437389255" />
+      <entry key="H2" value="187.3308719455037" />
+      <entry key="H4" value="211.21019379862568" />
+      <entry key="D1" value="234.06751219621304" />
+      <entry key="W1" value="238.28757362906555" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000020879238" />
+      <entry key="S10" value="1.000054042178122" />
+      <entry key="S30" value="1.0565362108067204" />
+      <entry key="S60" value="1.3399603972753056" />
+      <entry key="M2" value="2.167390980769858" />
+      <entry key="M5" value="7.2363335659149" />
+      <entry key="M10" value="18.843269778974722" />
+      <entry key="M15" value="31.096411104921504" />
+      <entry key="M30" value="60.149434763744466" />
+      <entry key="H1" value="90.14794986860012" />
+      <entry key="H2" value="112.70777519065696" />
+      <entry key="H4" value="126.71732060281381" />
+      <entry key="D1" value="140.1112125194962" />
+      <entry key="W1" value="142.58278521798667" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.2617488389648882E-8" />
+      <entry key="MS500" value="0.026314467300262993" />
+      <entry key="S2" value="0.4027621590897108" />
+      <entry key="S5" value="0.6957682675840791" />
+      <entry key="S10" value="0.8604550084159946" />
+      <entry key="S30" value="1.3144298739726463" />
+      <entry key="S60" value="1.9986667982621622" />
+      <entry key="M2" value="3.739847565849128" />
+      <entry key="M5" value="16.84232717498362" />
+      <entry key="M10" value="48.06696675027798" />
+      <entry key="M15" value="80.69567826865749" />
+      <entry key="M30" value="158.3230725793413" />
+      <entry key="H1" value="239.0500803874773" />
+      <entry key="H2" value="299.99496717142426" />
+      <entry key="H4" value="337.90289593604524" />
+      <entry key="D1" value="374.17417571920015" />
+      <entry key="W1" value="380.86969719074904" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3MhonEAjPi7tYkvqT0GKE1orpTk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Library.Server: http.executor": "Run",
+    ".NET Project.Library.Client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager" selected=".NET Project.Library.Client">
+    <configuration name="Library.Client" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Library.Client/Library.Client.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Library.Server: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Library.Server/Library.Server.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Library.Server: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Library.Server/Library.Server.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="100a7094-6fa8-41f6-8f1d-ed70d239a40b" name="Changes" comment="" />
+      <created>1795812339893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795812339893</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+</project>

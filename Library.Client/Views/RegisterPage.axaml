@@ -15,18 +15,12 @@
         <TextBox Watermark="Пароль" PasswordChar="*" Text="{Binding Password}" />
 
       
-        <TextBlock Text="{Binding ErrorMessage}" 
-                   HorizontalAlignment="Center"
-                   IsVisible="{Binding ErrorMessage, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+        <TextBlock Text="{Binding ErrorMessage}" IsVisible="{Binding ErrorMessage, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
         
         
-        <Button Width="300" HorizontalAlignment="Center"  Content="Регистрация" 
-               
-                Command="{Binding RegisterCommand}" />
+        <Button Width="300" HorizontalAlignment="Center"  Content="Регистрация" Command="{Binding RegisterCommand}" />
                 
-        <!-- 2. Заменили Click из code-behind на чистую MVVM-команду -->
-        <Button Width="300" HorizontalAlignment="Center"  Content="Войти" 
-                
-                Command="{Binding GoToLoginCommand}" />
+
+        <Button Width="300" HorizontalAlignment="Center"  Content="Войти" Command="{Binding GoToLoginCommand}" />
     </StackPanel>
 </UserControl>

@@ -1,0 +1,26 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:Library.Client.ViewModels"
+             x:DataType="viewModels:AddBookViewModel"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Library.Client.Views.AddBookPage">
+    <StackPanel HorizontalAlignment="Center" Margin="0,24">
+        <Label>Новая книга</Label>
+        
+        <TextBox Watermark="ISBN" Text="{Binding ISBN}"></TextBox>
+        <TextBox Watermark="Название книги" Text="{Binding Name}"></TextBox>
+        <TextBox Watermark="Имя автора" Text="{Binding AuthorFirstName}"></TextBox>
+        <TextBox Watermark="Фамилия автора" Text="{Binding ISBN}"></TextBox>
+        <TextBox Watermark="Жанр" Text="{Binding Genre}"></TextBox>
+        <TextBox Watermark="Год издания" Text="{Binding Year}"></TextBox>
+        <TextBox Watermark="Количество экземпляров" Text="{Binding Count}"></TextBox>
+        
+        <TextBlock Text="{Binding ErrorMessage}" IsVisible="{Binding ErrorMessage, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+        
+        <Button Command="{Binding SaveBookCommand}" >Сохранить</Button>
+        <Button Command="{Binding CancelCommand}" >Отмена</Button>
+        
+    </StackPanel>
+</UserControl>

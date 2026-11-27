@@ -13,17 +13,17 @@ public partial class BooksViewModel : ViewModelBase
 {
     private readonly BookApiService _bookApiService = new();
     
-    // Полный кэш книг с сервера, чтобы не терять данные при фильтрации
+    
     private List<BookCatalogRowDto> _allBooks = [];
 
-    // Отфильтрованный список, который отображается в DataGrid
+    
     [ObservableProperty]
     private List<BookCatalogRowDto> _books = [];
     
     [ObservableProperty]
     private BookCatalogRowDto? _selectedBook;
 
-    // Свойства поиска и фильтров (обязательно [ObservableProperty]!)
+    
     [ObservableProperty] 
     private string _searchTb = string.Empty;
 
@@ -42,6 +42,11 @@ public partial class BooksViewModel : ViewModelBase
     public bool IsAdmin => UserSession.IsAdmin;
 
     
-
+    
+    [RelayCommand]
+    private void OpenAddBook()
+    {
+        NavigationService.Instance.NavigateTo<AddBookViewModel>();
+    }
     
 }

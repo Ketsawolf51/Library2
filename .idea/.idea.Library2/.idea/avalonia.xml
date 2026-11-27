@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="Library.Client/Views/AddBookPage.axaml" value="Library.Client/Library.Client.csproj" />
         <entry key="Library.Client/Views/BooksPage.axaml" value="Library.Client/Library.Client.csproj" />
         <entry key="Library.Client/Views/LoginPage.axaml" value="Library.Client/Library.Client.csproj" />
         <entry key="Library.Client/Views/MainWindow.axaml" value="Library.Client/Library.Client.csproj" />

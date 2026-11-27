@@ -7,16 +7,92 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Library.Client.Views.LoginPage">
     
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
-            <Label HorizontalAlignment="Center">Вход</Label>
-            <Label  HorizontalAlignment="Center">Войдите в систему</Label>
-            <TextBox  Text="{Binding Login}"  Margin="0,10"></TextBox>
-            <TextBox PasswordChar="*" Text="{Binding Password}" ></TextBox>
-            <TextBlock IsVisible="{Binding ErrorMessage, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" Text="{Binding ErrorMessage}" HorizontalAlignment="Center" ></TextBlock>
-            <Button  Width="300" HorizontalAlignment="Center"  Content="Войти"   Margin="0,10"
-                      Command="{Binding LoginCommand}"></Button>
-            <Button Width="300" HorizontalAlignment="Center"  Content="Регистрация" 
-                     Command="{Binding GoToRegisterCommand}"></Button>
-        </StackPanel>
+       <Grid>
+        
+        <Border VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Width="380"
+                Padding="32,36"
+                CornerRadius="16"
+                BorderThickness="1"
+                BorderBrush="#33808080"
+                Background="{DynamicResource SystemControlBackgroundAltHighBrush}"
+                BoxShadow="0 8 24 0 #26000000">
+
+            <StackPanel Spacing="14">
+                
+                <StackPanel Spacing="4" Margin="0,0,0,10">
+                    <TextBlock Text="Добро пожаловать"
+                               FontSize="24"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+                    <TextBlock Text="Войдите в библиотечную систему"
+                               FontSize="13"
+                               Opacity="0.65"
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Логин" FontSize="12" Opacity="0.8"/>
+                    <TextBox Text="{Binding Login}"
+                             Height="40"
+                             CornerRadius="8"
+                             VerticalContentAlignment="Center"
+                             Padding="12,0"/>
+                </StackPanel>
+
+                
+                <StackPanel Spacing="4">
+                    <TextBlock Text="Пароль" FontSize="12" Opacity="0.8"/>
+                    <TextBox Text="{Binding Password}"
+                             PasswordChar="●"
+                             Height="40"
+                             CornerRadius="8"
+                             VerticalContentAlignment="Center"
+                             Padding="12,0"/>
+                </StackPanel>
+
+                
+                <Border Background="#1AE53935"
+                        BorderBrush="#66E53935"
+                        BorderThickness="1"
+                        CornerRadius="8"
+                        Padding="10,8"
+                        IsVisible="{Binding ErrorMessage, Converter={x:Static StringConverters.IsNotNullOrEmpty}}">
+                    <TextBlock Text="{Binding ErrorMessage}"
+                               Foreground="#E53935"
+                               FontSize="12"
+                               TextWrapping="Wrap"
+                               HorizontalAlignment="Center"
+                               TextAlignment="Center"/>
+                </Border>
+
+             
+                <StackPanel Spacing="8" Margin="0,8,0,0">
+                    <Button Content="Войти"
+                            Command="{Binding LoginCommand}"
+                            Classes="accent"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            Height="42"
+                            CornerRadius="8"
+                            FontWeight="SemiBold"/>
+
+                    <Button Content="Создать аккаунт"
+                            Command="{Binding GoToRegisterCommand}"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            Height="38"
+                            CornerRadius="8"
+                            Background="Transparent"
+                            BorderThickness="1"
+                            BorderBrush="#40808080"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
     
 </UserControl>

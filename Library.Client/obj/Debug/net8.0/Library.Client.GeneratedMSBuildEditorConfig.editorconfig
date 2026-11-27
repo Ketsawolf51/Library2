@@ -27,6 +27,9 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [/home/ooooo/RiderProjects/Library2/Library.Client/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/home/ooooo/RiderProjects/Library2/Library.Client/Views/AddBookPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/home/ooooo/RiderProjects/Library2/Library.Client/Views/BooksPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
